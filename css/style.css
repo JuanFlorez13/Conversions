@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color:rgb(139, 139, 139);
+}
+.info-title {
+    color:#FFF;
+    padding:30px;
+    display:flex;
+    justify-content:center;
+}
+.container-links-pages {
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    margin-top:30px;
+}
+.container-footer {
+    background:#0c181c;
+    color:white;
+    padding:30px;
+    display:flex;
+    justify-content:center;
+}
+header {
+    position: relative;
+    width:95.6%;
+    height:10vh;
+    overflow:hidden;
+    display:flex;
+    justify-content:center;
+    padding:50px;
+}
+header::before {
+    content:'';
+    position:absolute;
+    bottom:0;
+    left:50%;
+    width:100%;
+    height:100vh;
+    border-radius:50%;
+    transform-origin:bottom;
+    background-color:#0c181c;
+    transform:translateX(-50%) scale(4);
+}
+.content-title {
+    position: relative;
+    z-index:1;
+    max-width:100%;
+    text-align:center;
+}
+footer {
+    margin-top:3%;
+    position: relative;
+    width:95.6%;
+    height:10vh;
+    overflow:hidden;
+    display:flex;
+    justify-content:center;
+    padding:50px;
+}
+footer::before {
+    content:'';
+    position:absolute;
+    bottom:0;
+    left:50%;
+    width:100%;
+    height:100vh;
+    border-radius:50%;
+    transform-origin:bottom;
+    background-color:#1d3d33;
+    transform:translateX(-25%) scale(4);
+}
+.content-creator {
+    position: relative;
+    z-index:1;
+    max-width:100%;
+    text-align:center;
+}
+.accounts {
+    margin:1%;
+}
+.accounts img {
+    width:25px;
+    margin:0.5%;
+    padding:1px;
+    background-color:rgb(139, 139, 139);
+    border-radius:5px;
+    transition: transform .3s;
+}
+.accounts img:hover {
+    transform: scale(1.2);
+}
+
+.btn{
+    background-color: #1d3d33;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 300ms ease 0ms;
+    margin: 10px;
+    padding:15px;
+    width:20%;
+}
+.container-links-pages a{
+    text-decoration:none;
+    color: #FFF;
+}
+.btn:hover{
+    transform: translateY(-7px);
+    box-shadow: 0px 10px 17px -1px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 10px 17px -1px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 10px 17px -1px rgba(0,0,0,0.75);
+}

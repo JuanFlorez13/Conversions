@@ -1,0 +1,8 @@
+gris
+background-color:rgb(139, 139, 139);
+
+background-color:#0c181c;
+
+verde
+background-color:#1d3d33;
+
